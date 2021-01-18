@@ -1,4 +1,3 @@
-#include <iostream>
 #include <string>
 
 class Solution{
@@ -24,9 +23,3 @@ public:
         return result * sign;
     }
 };
-
-int main()
-{
-
-    return 0;
-}
