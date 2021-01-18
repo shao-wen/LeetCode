@@ -1,0 +1,4 @@
+/home/luffy/Programs/clion-2020.2.4/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/luffy/Documents/Code/C++/LeetCode
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/luffy/Documents/Code/C++/LeetCode/cmake-build-debug
