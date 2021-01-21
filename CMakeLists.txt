@@ -3,4 +3,4 @@ project(LeetCode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(LeetCode MyAtoi.cpp)
+add_executable(LeetCode AddBinary.cpp)

@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/luffy/Documents/Code/C++/LeetCode/MyAtoi.cpp">
+		<Unit filename="/home/luffy/Documents/Code/C++/LeetCode/AddBinary.cpp">
 			<Option target="LeetCode"/>
 		</Unit>
 		<Unit filename="/home/luffy/Documents/Code/C++/LeetCode/CMakeLists.txt">

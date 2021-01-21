@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LeetCode.dir/MyAtoi.cpp.o"
+  "CMakeFiles/LeetCode.dir/AddBinary.cpp.o"
   "LeetCode"
   "LeetCode.pdb"
 )

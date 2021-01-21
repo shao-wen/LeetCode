@@ -143,32 +143,32 @@ LeetCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-MyAtoi.o: MyAtoi.cpp.o
+AddBinary.o: AddBinary.cpp.o
 
-.PHONY : MyAtoi.o
+.PHONY : AddBinary.o
 
 # target to build an object file
-MyAtoi.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/MyAtoi.cpp.o
-.PHONY : MyAtoi.cpp.o
+AddBinary.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/AddBinary.cpp.o
+.PHONY : AddBinary.cpp.o
 
-MyAtoi.i: MyAtoi.cpp.i
+AddBinary.i: AddBinary.cpp.i
 
-.PHONY : MyAtoi.i
+.PHONY : AddBinary.i
 
 # target to preprocess a source file
-MyAtoi.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/MyAtoi.cpp.i
-.PHONY : MyAtoi.cpp.i
+AddBinary.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/AddBinary.cpp.i
+.PHONY : AddBinary.cpp.i
 
-MyAtoi.s: MyAtoi.cpp.s
+AddBinary.s: AddBinary.cpp.s
 
-.PHONY : MyAtoi.s
+.PHONY : AddBinary.s
 
 # target to generate assembly for a file
-MyAtoi.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/MyAtoi.cpp.s
-.PHONY : MyAtoi.cpp.s
+AddBinary.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/AddBinary.cpp.s
+.PHONY : AddBinary.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCode"
-	@echo "... MyAtoi.o"
-	@echo "... MyAtoi.i"
-	@echo "... MyAtoi.s"
+	@echo "... AddBinary.o"
+	@echo "... AddBinary.i"
+	@echo "... AddBinary.s"
 .PHONY : help
 
 
