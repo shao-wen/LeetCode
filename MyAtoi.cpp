@@ -12,11 +12,12 @@ public:
 
         while (pos < str.length() && str[pos] == ' ')
             ++pos;
-        if ( pos < str.length() && (str[pos] == '-' || str[pos] == '+'))
+        if (pos < str.length() && (str[pos] == '-' || str[pos] == '+'))
             sign = str[pos++] == '+' ? 1 : -1;
 
-        while (pos < str.length() && str[pos] >= '0' && str[pos] <= '9'){
-            if ( result > INT32_MAX/10 || (result == INT32_MAX/10 && str[pos] - '0' > INT32_MAX%10) )
+        while (pos < str.length() && str[pos] >= '0' && str[pos] <= '9')
+        {
+            if (result > INT32_MAX/10 || (result == INT32_MAX/10 && str[pos] - '0' > INT32_MAX%10))
                 return (sign == 1) ? INT32_MAX : INT32_MIN;
             result = result * 10 + (str[pos++] - '0');
         }

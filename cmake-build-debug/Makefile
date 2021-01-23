@@ -143,32 +143,32 @@ LeetCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-AddBinary.o: AddBinary.cpp.o
+MySqrt.o: MySqrt.cpp.o
 
-.PHONY : AddBinary.o
+.PHONY : MySqrt.o
 
 # target to build an object file
-AddBinary.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/AddBinary.cpp.o
-.PHONY : AddBinary.cpp.o
+MySqrt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/MySqrt.cpp.o
+.PHONY : MySqrt.cpp.o
 
-AddBinary.i: AddBinary.cpp.i
+MySqrt.i: MySqrt.cpp.i
 
-.PHONY : AddBinary.i
+.PHONY : MySqrt.i
 
 # target to preprocess a source file
-AddBinary.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/AddBinary.cpp.i
-.PHONY : AddBinary.cpp.i
+MySqrt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/MySqrt.cpp.i
+.PHONY : MySqrt.cpp.i
 
-AddBinary.s: AddBinary.cpp.s
+MySqrt.s: MySqrt.cpp.s
 
-.PHONY : AddBinary.s
+.PHONY : MySqrt.s
 
 # target to generate assembly for a file
-AddBinary.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/AddBinary.cpp.s
-.PHONY : AddBinary.cpp.s
+MySqrt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/MySqrt.cpp.s
+.PHONY : MySqrt.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCode"
-	@echo "... AddBinary.o"
-	@echo "... AddBinary.i"
-	@echo "... AddBinary.s"
+	@echo "... MySqrt.o"
+	@echo "... MySqrt.i"
+	@echo "... MySqrt.s"
 .PHONY : help
 
 
