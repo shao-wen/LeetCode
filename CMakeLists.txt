@@ -3,4 +3,4 @@ project(LeetCode)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(LeetCode MySqrt.cpp)
+add_executable(LeetCode TitleToNumber.cpp)

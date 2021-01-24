@@ -143,32 +143,32 @@ LeetCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-MySqrt.o: MySqrt.cpp.o
+TitleToNumber.o: TitleToNumber.cpp.o
 
-.PHONY : MySqrt.o
+.PHONY : TitleToNumber.o
 
 # target to build an object file
-MySqrt.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/MySqrt.cpp.o
-.PHONY : MySqrt.cpp.o
+TitleToNumber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/TitleToNumber.cpp.o
+.PHONY : TitleToNumber.cpp.o
 
-MySqrt.i: MySqrt.cpp.i
+TitleToNumber.i: TitleToNumber.cpp.i
 
-.PHONY : MySqrt.i
+.PHONY : TitleToNumber.i
 
 # target to preprocess a source file
-MySqrt.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/MySqrt.cpp.i
-.PHONY : MySqrt.cpp.i
+TitleToNumber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/TitleToNumber.cpp.i
+.PHONY : TitleToNumber.cpp.i
 
-MySqrt.s: MySqrt.cpp.s
+TitleToNumber.s: TitleToNumber.cpp.s
 
-.PHONY : MySqrt.s
+.PHONY : TitleToNumber.s
 
 # target to generate assembly for a file
-MySqrt.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/MySqrt.cpp.s
-.PHONY : MySqrt.cpp.s
+TitleToNumber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/TitleToNumber.cpp.s
+.PHONY : TitleToNumber.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCode"
-	@echo "... MySqrt.o"
-	@echo "... MySqrt.i"
-	@echo "... MySqrt.s"
+	@echo "... TitleToNumber.o"
+	@echo "... TitleToNumber.i"
+	@echo "... TitleToNumber.s"
 .PHONY : help
 
 

@@ -6,9 +6,9 @@ public:
     static std::string convertToTitle(int n)
     {
         std::string result;
-        while (n > 0) {
+        while (n > 0){
             result.insert(result.begin(), 'A' + ((n - 1) % 26));
-            n = (n-1)/26;
+            n = (n - 1) / 26;
         }
         return result;
     }

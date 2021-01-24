@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LeetCode.dir/MySqrt.cpp.o"
+  "CMakeFiles/LeetCode.dir/TitleToNumber.cpp.o"
   "LeetCode"
   "LeetCode.pdb"
 )
