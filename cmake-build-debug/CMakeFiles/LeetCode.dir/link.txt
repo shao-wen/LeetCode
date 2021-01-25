@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/LeetCode.dir/TitleToNumber.cpp.o  -o LeetCode 
+/usr/bin/c++  -g   CMakeFiles/LeetCode.dir/CountPrimes.cpp.o  -o LeetCode 

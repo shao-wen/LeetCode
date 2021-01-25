@@ -143,32 +143,32 @@ LeetCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-TitleToNumber.o: TitleToNumber.cpp.o
+CountPrimes.o: CountPrimes.cpp.o
 
-.PHONY : TitleToNumber.o
+.PHONY : CountPrimes.o
 
 # target to build an object file
-TitleToNumber.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/TitleToNumber.cpp.o
-.PHONY : TitleToNumber.cpp.o
+CountPrimes.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/CountPrimes.cpp.o
+.PHONY : CountPrimes.cpp.o
 
-TitleToNumber.i: TitleToNumber.cpp.i
+CountPrimes.i: CountPrimes.cpp.i
 
-.PHONY : TitleToNumber.i
+.PHONY : CountPrimes.i
 
 # target to preprocess a source file
-TitleToNumber.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/TitleToNumber.cpp.i
-.PHONY : TitleToNumber.cpp.i
+CountPrimes.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/CountPrimes.cpp.i
+.PHONY : CountPrimes.cpp.i
 
-TitleToNumber.s: TitleToNumber.cpp.s
+CountPrimes.s: CountPrimes.cpp.s
 
-.PHONY : TitleToNumber.s
+.PHONY : CountPrimes.s
 
 # target to generate assembly for a file
-TitleToNumber.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/TitleToNumber.cpp.s
-.PHONY : TitleToNumber.cpp.s
+CountPrimes.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/CountPrimes.cpp.s
+.PHONY : CountPrimes.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCode"
-	@echo "... TitleToNumber.o"
-	@echo "... TitleToNumber.i"
-	@echo "... TitleToNumber.s"
+	@echo "... CountPrimes.o"
+	@echo "... CountPrimes.i"
+	@echo "... CountPrimes.s"
 .PHONY : help
 
 
