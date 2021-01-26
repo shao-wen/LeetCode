@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/luffy/Documents/Code/C++/LeetCode/CountPrimes.cpp
-vector
+/home/luffy/Documents/Code/C++/LeetCode/ConvertToTitle.cpp
+iostream
 -
-cmath
+string
 -
 

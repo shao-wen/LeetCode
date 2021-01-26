@@ -18,13 +18,11 @@ public:
         long int l = 0;
         long int r = x;
 
-        while (l <= r)
-        {
+        while (l <= r) {
             long int mid = l + (r - l) / 2;
             if (mid * mid == x)
                 return mid;
-            else
-            {
+            else {
                 if (mid * mid > x)
                     r = mid - 1;
                 else

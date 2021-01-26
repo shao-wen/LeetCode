@@ -2,15 +2,15 @@
 
 class Solution {
 public:
-    static int bitwiseComplement(int N) {
+    static int bitwiseComplement(int N)
+    {
         if (N == 0)
             return 1;
 
         int tmp1 = 1;
         int tmp2 = N;
-        while (tmp2 > 0)
-        {
-            N ^= tmp1;
+        while (tmp2 > 0) {
+            N    ^= tmp1;
             tmp1 <<= 1;
             tmp2 >>= 1;
         }
@@ -18,7 +18,8 @@ public:
     }
 };
 
-int main() {
+int main()
+{
     std::cout << Solution::bitwiseComplement(3) << std::endl;
     return 0;
 }

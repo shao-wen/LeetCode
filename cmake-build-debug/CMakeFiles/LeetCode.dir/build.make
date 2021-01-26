@@ -77,27 +77,27 @@ include CMakeFiles/LeetCode.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LeetCode.dir/flags.make
 
-CMakeFiles/LeetCode.dir/CountPrimes.cpp.o: CMakeFiles/LeetCode.dir/flags.make
-CMakeFiles/LeetCode.dir/CountPrimes.cpp.o: ../CountPrimes.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luffy/Documents/Code/C++/LeetCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetCode.dir/CountPrimes.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCode.dir/CountPrimes.cpp.o -c /home/luffy/Documents/Code/C++/LeetCode/CountPrimes.cpp
+CMakeFiles/LeetCode.dir/ConvertToTitle.cpp.o: CMakeFiles/LeetCode.dir/flags.make
+CMakeFiles/LeetCode.dir/ConvertToTitle.cpp.o: ../ConvertToTitle.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luffy/Documents/Code/C++/LeetCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetCode.dir/ConvertToTitle.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCode.dir/ConvertToTitle.cpp.o -c /home/luffy/Documents/Code/C++/LeetCode/ConvertToTitle.cpp
 
-CMakeFiles/LeetCode.dir/CountPrimes.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode.dir/CountPrimes.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luffy/Documents/Code/C++/LeetCode/CountPrimes.cpp > CMakeFiles/LeetCode.dir/CountPrimes.cpp.i
+CMakeFiles/LeetCode.dir/ConvertToTitle.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode.dir/ConvertToTitle.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luffy/Documents/Code/C++/LeetCode/ConvertToTitle.cpp > CMakeFiles/LeetCode.dir/ConvertToTitle.cpp.i
 
-CMakeFiles/LeetCode.dir/CountPrimes.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/CountPrimes.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luffy/Documents/Code/C++/LeetCode/CountPrimes.cpp -o CMakeFiles/LeetCode.dir/CountPrimes.cpp.s
+CMakeFiles/LeetCode.dir/ConvertToTitle.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/ConvertToTitle.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luffy/Documents/Code/C++/LeetCode/ConvertToTitle.cpp -o CMakeFiles/LeetCode.dir/ConvertToTitle.cpp.s
 
 # Object files for target LeetCode
 LeetCode_OBJECTS = \
-"CMakeFiles/LeetCode.dir/CountPrimes.cpp.o"
+"CMakeFiles/LeetCode.dir/ConvertToTitle.cpp.o"
 
 # External object files for target LeetCode
 LeetCode_EXTERNAL_OBJECTS =
 
-LeetCode: CMakeFiles/LeetCode.dir/CountPrimes.cpp.o
+LeetCode: CMakeFiles/LeetCode.dir/ConvertToTitle.cpp.o
 LeetCode: CMakeFiles/LeetCode.dir/build.make
 LeetCode: CMakeFiles/LeetCode.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luffy/Documents/Code/C++/LeetCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LeetCode"

@@ -16,6 +16,6 @@ public:
 
 int main()
 {
-    std::cout << Solution::convertToTitle(701) << std::endl;
+    std::cout << Solution::convertToTitle(26 * 26 * 26 * 26) << std::endl;
     return 0;
 }
