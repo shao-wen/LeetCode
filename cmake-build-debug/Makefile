@@ -143,32 +143,32 @@ LeetCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-ConvertToTitle.o: ConvertToTitle.cpp.o
+IsHappy.o: IsHappy.cpp.o
 
-.PHONY : ConvertToTitle.o
+.PHONY : IsHappy.o
 
 # target to build an object file
-ConvertToTitle.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/ConvertToTitle.cpp.o
-.PHONY : ConvertToTitle.cpp.o
+IsHappy.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsHappy.cpp.o
+.PHONY : IsHappy.cpp.o
 
-ConvertToTitle.i: ConvertToTitle.cpp.i
+IsHappy.i: IsHappy.cpp.i
 
-.PHONY : ConvertToTitle.i
+.PHONY : IsHappy.i
 
 # target to preprocess a source file
-ConvertToTitle.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/ConvertToTitle.cpp.i
-.PHONY : ConvertToTitle.cpp.i
+IsHappy.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsHappy.cpp.i
+.PHONY : IsHappy.cpp.i
 
-ConvertToTitle.s: ConvertToTitle.cpp.s
+IsHappy.s: IsHappy.cpp.s
 
-.PHONY : ConvertToTitle.s
+.PHONY : IsHappy.s
 
 # target to generate assembly for a file
-ConvertToTitle.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/ConvertToTitle.cpp.s
-.PHONY : ConvertToTitle.cpp.s
+IsHappy.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsHappy.cpp.s
+.PHONY : IsHappy.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCode"
-	@echo "... ConvertToTitle.o"
-	@echo "... ConvertToTitle.i"
-	@echo "... ConvertToTitle.s"
+	@echo "... IsHappy.o"
+	@echo "... IsHappy.i"
+	@echo "... IsHappy.s"
 .PHONY : help
 
 
