@@ -1,4 +1,4 @@
-int addSum(int n)
+int turn(int n)
 {
     int result = 0;
     while (n > 0) {

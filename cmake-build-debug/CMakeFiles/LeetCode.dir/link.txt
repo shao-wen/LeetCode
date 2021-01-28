@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/LeetCode.dir/AddDigits.cpp.o  -o LeetCode 
+/usr/bin/c++  -g   CMakeFiles/LeetCode.dir/IsPalindrome.cpp.o  -o LeetCode 

@@ -143,32 +143,32 @@ LeetCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-AddDigits.o: AddDigits.cpp.o
+IsPalindrome.o: IsPalindrome.cpp.o
 
-.PHONY : AddDigits.o
+.PHONY : IsPalindrome.o
 
 # target to build an object file
-AddDigits.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/AddDigits.cpp.o
-.PHONY : AddDigits.cpp.o
+IsPalindrome.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsPalindrome.cpp.o
+.PHONY : IsPalindrome.cpp.o
 
-AddDigits.i: AddDigits.cpp.i
+IsPalindrome.i: IsPalindrome.cpp.i
 
-.PHONY : AddDigits.i
+.PHONY : IsPalindrome.i
 
 # target to preprocess a source file
-AddDigits.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/AddDigits.cpp.i
-.PHONY : AddDigits.cpp.i
+IsPalindrome.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsPalindrome.cpp.i
+.PHONY : IsPalindrome.cpp.i
 
-AddDigits.s: AddDigits.cpp.s
+IsPalindrome.s: IsPalindrome.cpp.s
 
-.PHONY : AddDigits.s
+.PHONY : IsPalindrome.s
 
 # target to generate assembly for a file
-AddDigits.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/AddDigits.cpp.s
-.PHONY : AddDigits.cpp.s
+IsPalindrome.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsPalindrome.cpp.s
+.PHONY : IsPalindrome.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCode"
-	@echo "... AddDigits.o"
-	@echo "... AddDigits.i"
-	@echo "... AddDigits.s"
+	@echo "... IsPalindrome.o"
+	@echo "... IsPalindrome.i"
+	@echo "... IsPalindrome.s"
 .PHONY : help
 
 
