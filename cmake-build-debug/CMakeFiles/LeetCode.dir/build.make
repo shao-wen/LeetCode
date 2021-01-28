@@ -77,27 +77,27 @@ include CMakeFiles/LeetCode.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LeetCode.dir/flags.make
 
-CMakeFiles/LeetCode.dir/IsHappy.cpp.o: CMakeFiles/LeetCode.dir/flags.make
-CMakeFiles/LeetCode.dir/IsHappy.cpp.o: ../IsHappy.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luffy/Documents/Code/C++/LeetCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetCode.dir/IsHappy.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCode.dir/IsHappy.cpp.o -c /home/luffy/Documents/Code/C++/LeetCode/IsHappy.cpp
+CMakeFiles/LeetCode.dir/AddDigits.cpp.o: CMakeFiles/LeetCode.dir/flags.make
+CMakeFiles/LeetCode.dir/AddDigits.cpp.o: ../AddDigits.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/luffy/Documents/Code/C++/LeetCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LeetCode.dir/AddDigits.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/LeetCode.dir/AddDigits.cpp.o -c /home/luffy/Documents/Code/C++/LeetCode/AddDigits.cpp
 
-CMakeFiles/LeetCode.dir/IsHappy.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode.dir/IsHappy.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luffy/Documents/Code/C++/LeetCode/IsHappy.cpp > CMakeFiles/LeetCode.dir/IsHappy.cpp.i
+CMakeFiles/LeetCode.dir/AddDigits.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LeetCode.dir/AddDigits.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/luffy/Documents/Code/C++/LeetCode/AddDigits.cpp > CMakeFiles/LeetCode.dir/AddDigits.cpp.i
 
-CMakeFiles/LeetCode.dir/IsHappy.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/IsHappy.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luffy/Documents/Code/C++/LeetCode/IsHappy.cpp -o CMakeFiles/LeetCode.dir/IsHappy.cpp.s
+CMakeFiles/LeetCode.dir/AddDigits.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LeetCode.dir/AddDigits.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/luffy/Documents/Code/C++/LeetCode/AddDigits.cpp -o CMakeFiles/LeetCode.dir/AddDigits.cpp.s
 
 # Object files for target LeetCode
 LeetCode_OBJECTS = \
-"CMakeFiles/LeetCode.dir/IsHappy.cpp.o"
+"CMakeFiles/LeetCode.dir/AddDigits.cpp.o"
 
 # External object files for target LeetCode
 LeetCode_EXTERNAL_OBJECTS =
 
-LeetCode: CMakeFiles/LeetCode.dir/IsHappy.cpp.o
+LeetCode: CMakeFiles/LeetCode.dir/AddDigits.cpp.o
 LeetCode: CMakeFiles/LeetCode.dir/build.make
 LeetCode: CMakeFiles/LeetCode.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/luffy/Documents/Code/C++/LeetCode/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable LeetCode"

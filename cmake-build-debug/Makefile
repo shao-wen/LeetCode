@@ -143,32 +143,32 @@ LeetCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-IsHappy.o: IsHappy.cpp.o
+AddDigits.o: AddDigits.cpp.o
 
-.PHONY : IsHappy.o
+.PHONY : AddDigits.o
 
 # target to build an object file
-IsHappy.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsHappy.cpp.o
-.PHONY : IsHappy.cpp.o
+AddDigits.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/AddDigits.cpp.o
+.PHONY : AddDigits.cpp.o
 
-IsHappy.i: IsHappy.cpp.i
+AddDigits.i: AddDigits.cpp.i
 
-.PHONY : IsHappy.i
+.PHONY : AddDigits.i
 
 # target to preprocess a source file
-IsHappy.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsHappy.cpp.i
-.PHONY : IsHappy.cpp.i
+AddDigits.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/AddDigits.cpp.i
+.PHONY : AddDigits.cpp.i
 
-IsHappy.s: IsHappy.cpp.s
+AddDigits.s: AddDigits.cpp.s
 
-.PHONY : IsHappy.s
+.PHONY : AddDigits.s
 
 # target to generate assembly for a file
-IsHappy.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsHappy.cpp.s
-.PHONY : IsHappy.cpp.s
+AddDigits.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/AddDigits.cpp.s
+.PHONY : AddDigits.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCode"
-	@echo "... IsHappy.o"
-	@echo "... IsHappy.i"
-	@echo "... IsHappy.s"
+	@echo "... AddDigits.o"
+	@echo "... AddDigits.i"
+	@echo "... AddDigits.s"
 .PHONY : help
 
 
