@@ -143,32 +143,32 @@ LeetCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-IsPalindrome.o: IsPalindrome.cpp.o
+ReverseString.o: ReverseString.cpp.o
 
-.PHONY : IsPalindrome.o
+.PHONY : ReverseString.o
 
 # target to build an object file
-IsPalindrome.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsPalindrome.cpp.o
-.PHONY : IsPalindrome.cpp.o
+ReverseString.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/ReverseString.cpp.o
+.PHONY : ReverseString.cpp.o
 
-IsPalindrome.i: IsPalindrome.cpp.i
+ReverseString.i: ReverseString.cpp.i
 
-.PHONY : IsPalindrome.i
+.PHONY : ReverseString.i
 
 # target to preprocess a source file
-IsPalindrome.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsPalindrome.cpp.i
-.PHONY : IsPalindrome.cpp.i
+ReverseString.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/ReverseString.cpp.i
+.PHONY : ReverseString.cpp.i
 
-IsPalindrome.s: IsPalindrome.cpp.s
+ReverseString.s: ReverseString.cpp.s
 
-.PHONY : IsPalindrome.s
+.PHONY : ReverseString.s
 
 # target to generate assembly for a file
-IsPalindrome.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsPalindrome.cpp.s
-.PHONY : IsPalindrome.cpp.s
+ReverseString.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/ReverseString.cpp.s
+.PHONY : ReverseString.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCode"
-	@echo "... IsPalindrome.o"
-	@echo "... IsPalindrome.i"
-	@echo "... IsPalindrome.s"
+	@echo "... ReverseString.o"
+	@echo "... ReverseString.i"
+	@echo "... ReverseString.s"
 .PHONY : help
 
 

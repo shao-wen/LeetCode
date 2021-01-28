@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LeetCode.dir/IsPalindrome.cpp.o"
+  "CMakeFiles/LeetCode.dir/ReverseString.cpp.o"
   "LeetCode"
   "LeetCode.pdb"
 )
