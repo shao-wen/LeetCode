@@ -143,32 +143,32 @@ LeetCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-ReverseString.o: ReverseString.cpp.o
+IntToRoman.o: IntToRoman.cpp.o
 
-.PHONY : ReverseString.o
+.PHONY : IntToRoman.o
 
 # target to build an object file
-ReverseString.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/ReverseString.cpp.o
-.PHONY : ReverseString.cpp.o
+IntToRoman.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IntToRoman.cpp.o
+.PHONY : IntToRoman.cpp.o
 
-ReverseString.i: ReverseString.cpp.i
+IntToRoman.i: IntToRoman.cpp.i
 
-.PHONY : ReverseString.i
+.PHONY : IntToRoman.i
 
 # target to preprocess a source file
-ReverseString.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/ReverseString.cpp.i
-.PHONY : ReverseString.cpp.i
+IntToRoman.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IntToRoman.cpp.i
+.PHONY : IntToRoman.cpp.i
 
-ReverseString.s: ReverseString.cpp.s
+IntToRoman.s: IntToRoman.cpp.s
 
-.PHONY : ReverseString.s
+.PHONY : IntToRoman.s
 
 # target to generate assembly for a file
-ReverseString.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/ReverseString.cpp.s
-.PHONY : ReverseString.cpp.s
+IntToRoman.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IntToRoman.cpp.s
+.PHONY : IntToRoman.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCode"
-	@echo "... ReverseString.o"
-	@echo "... ReverseString.i"
-	@echo "... ReverseString.s"
+	@echo "... IntToRoman.o"
+	@echo "... IntToRoman.i"
+	@echo "... IntToRoman.s"
 .PHONY : help
 
 
