@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/LeetCode.dir/IntToRoman.cpp.o"
+  "CMakeFiles/LeetCode.dir/RomanToInt.cpp.o"
   "LeetCode"
   "LeetCode.pdb"
 )

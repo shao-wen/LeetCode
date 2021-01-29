@@ -143,32 +143,32 @@ LeetCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-IntToRoman.o: IntToRoman.cpp.o
+RomanToInt.o: RomanToInt.cpp.o
 
-.PHONY : IntToRoman.o
+.PHONY : RomanToInt.o
 
 # target to build an object file
-IntToRoman.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IntToRoman.cpp.o
-.PHONY : IntToRoman.cpp.o
+RomanToInt.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/RomanToInt.cpp.o
+.PHONY : RomanToInt.cpp.o
 
-IntToRoman.i: IntToRoman.cpp.i
+RomanToInt.i: RomanToInt.cpp.i
 
-.PHONY : IntToRoman.i
+.PHONY : RomanToInt.i
 
 # target to preprocess a source file
-IntToRoman.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IntToRoman.cpp.i
-.PHONY : IntToRoman.cpp.i
+RomanToInt.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/RomanToInt.cpp.i
+.PHONY : RomanToInt.cpp.i
 
-IntToRoman.s: IntToRoman.cpp.s
+RomanToInt.s: RomanToInt.cpp.s
 
-.PHONY : IntToRoman.s
+.PHONY : RomanToInt.s
 
 # target to generate assembly for a file
-IntToRoman.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IntToRoman.cpp.s
-.PHONY : IntToRoman.cpp.s
+RomanToInt.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/RomanToInt.cpp.s
+.PHONY : RomanToInt.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCode"
-	@echo "... IntToRoman.o"
-	@echo "... IntToRoman.i"
-	@echo "... IntToRoman.s"
+	@echo "... RomanToInt.o"
+	@echo "... RomanToInt.i"
+	@echo "... RomanToInt.s"
 .PHONY : help
 
 
