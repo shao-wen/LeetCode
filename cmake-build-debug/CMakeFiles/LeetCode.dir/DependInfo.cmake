@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/luffy/Documents/Code/C++/LeetCode/RomanToInt.cpp" "/home/luffy/Documents/Code/C++/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/RomanToInt.cpp.o"
+  "/home/luffy/Documents/Code/C++/LeetCode/MissingNumber.cpp" "/home/luffy/Documents/Code/C++/LeetCode/cmake-build-debug/CMakeFiles/LeetCode.dir/MissingNumber.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

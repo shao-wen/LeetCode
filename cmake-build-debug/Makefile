@@ -143,32 +143,32 @@ LeetCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-RomanToInt.o: RomanToInt.cpp.o
+MissingNumber.o: MissingNumber.cpp.o
 
-.PHONY : RomanToInt.o
+.PHONY : MissingNumber.o
 
 # target to build an object file
-RomanToInt.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/RomanToInt.cpp.o
-.PHONY : RomanToInt.cpp.o
+MissingNumber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/MissingNumber.cpp.o
+.PHONY : MissingNumber.cpp.o
 
-RomanToInt.i: RomanToInt.cpp.i
+MissingNumber.i: MissingNumber.cpp.i
 
-.PHONY : RomanToInt.i
+.PHONY : MissingNumber.i
 
 # target to preprocess a source file
-RomanToInt.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/RomanToInt.cpp.i
-.PHONY : RomanToInt.cpp.i
+MissingNumber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/MissingNumber.cpp.i
+.PHONY : MissingNumber.cpp.i
 
-RomanToInt.s: RomanToInt.cpp.s
+MissingNumber.s: MissingNumber.cpp.s
 
-.PHONY : RomanToInt.s
+.PHONY : MissingNumber.s
 
 # target to generate assembly for a file
-RomanToInt.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/RomanToInt.cpp.s
-.PHONY : RomanToInt.cpp.s
+MissingNumber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/MissingNumber.cpp.s
+.PHONY : MissingNumber.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCode"
-	@echo "... RomanToInt.o"
-	@echo "... RomanToInt.i"
-	@echo "... RomanToInt.s"
+	@echo "... MissingNumber.o"
+	@echo "... MissingNumber.i"
+	@echo "... MissingNumber.s"
 .PHONY : help
 
 
