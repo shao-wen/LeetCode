@@ -15,7 +15,7 @@ public:
     {
         int result = num;
         while (result >= 10) {
-            result = addSum(result);
+            result = turn(result);
         }
         return result;
     }

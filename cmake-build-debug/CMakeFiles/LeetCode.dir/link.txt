@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/LeetCode.dir/MissingNumber.cpp.o  -o LeetCode 
+/usr/bin/c++  -g   CMakeFiles/LeetCode.dir/IsPerfectSquare.cpp.o  -o LeetCode 

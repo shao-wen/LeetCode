@@ -26,7 +26,7 @@ public:
             return false;
         std::string str1 = std::to_string(x);
         std::string str2 = str1;
-        reverse(str2.begin(), str2.end());
+        std::reverse(str2.begin(), str2.end());
         return str1 == str2;
     }
 };

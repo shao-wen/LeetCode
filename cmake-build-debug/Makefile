@@ -143,32 +143,32 @@ LeetCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-MissingNumber.o: MissingNumber.cpp.o
+IsPerfectSquare.o: IsPerfectSquare.cpp.o
 
-.PHONY : MissingNumber.o
+.PHONY : IsPerfectSquare.o
 
 # target to build an object file
-MissingNumber.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/MissingNumber.cpp.o
-.PHONY : MissingNumber.cpp.o
+IsPerfectSquare.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsPerfectSquare.cpp.o
+.PHONY : IsPerfectSquare.cpp.o
 
-MissingNumber.i: MissingNumber.cpp.i
+IsPerfectSquare.i: IsPerfectSquare.cpp.i
 
-.PHONY : MissingNumber.i
+.PHONY : IsPerfectSquare.i
 
 # target to preprocess a source file
-MissingNumber.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/MissingNumber.cpp.i
-.PHONY : MissingNumber.cpp.i
+IsPerfectSquare.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsPerfectSquare.cpp.i
+.PHONY : IsPerfectSquare.cpp.i
 
-MissingNumber.s: MissingNumber.cpp.s
+IsPerfectSquare.s: IsPerfectSquare.cpp.s
 
-.PHONY : MissingNumber.s
+.PHONY : IsPerfectSquare.s
 
 # target to generate assembly for a file
-MissingNumber.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/MissingNumber.cpp.s
-.PHONY : MissingNumber.cpp.s
+IsPerfectSquare.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsPerfectSquare.cpp.s
+.PHONY : IsPerfectSquare.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCode"
-	@echo "... MissingNumber.o"
-	@echo "... MissingNumber.i"
-	@echo "... MissingNumber.s"
+	@echo "... IsPerfectSquare.o"
+	@echo "... IsPerfectSquare.i"
+	@echo "... IsPerfectSquare.s"
 .PHONY : help
 
 
