@@ -143,32 +143,32 @@ LeetCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-IsPerfectSquare.o: IsPerfectSquare.cpp.o
+IsUgly.o: IsUgly.cpp.o
 
-.PHONY : IsPerfectSquare.o
+.PHONY : IsUgly.o
 
 # target to build an object file
-IsPerfectSquare.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsPerfectSquare.cpp.o
-.PHONY : IsPerfectSquare.cpp.o
+IsUgly.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsUgly.cpp.o
+.PHONY : IsUgly.cpp.o
 
-IsPerfectSquare.i: IsPerfectSquare.cpp.i
+IsUgly.i: IsUgly.cpp.i
 
-.PHONY : IsPerfectSquare.i
+.PHONY : IsUgly.i
 
 # target to preprocess a source file
-IsPerfectSquare.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsPerfectSquare.cpp.i
-.PHONY : IsPerfectSquare.cpp.i
+IsUgly.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsUgly.cpp.i
+.PHONY : IsUgly.cpp.i
 
-IsPerfectSquare.s: IsPerfectSquare.cpp.s
+IsUgly.s: IsUgly.cpp.s
 
-.PHONY : IsPerfectSquare.s
+.PHONY : IsUgly.s
 
 # target to generate assembly for a file
-IsPerfectSquare.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsPerfectSquare.cpp.s
-.PHONY : IsPerfectSquare.cpp.s
+IsUgly.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsUgly.cpp.s
+.PHONY : IsUgly.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCode"
-	@echo "... IsPerfectSquare.o"
-	@echo "... IsPerfectSquare.i"
-	@echo "... IsPerfectSquare.s"
+	@echo "... IsUgly.o"
+	@echo "... IsUgly.i"
+	@echo "... IsUgly.s"
 .PHONY : help
 
 
