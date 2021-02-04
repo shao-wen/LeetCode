@@ -143,32 +143,32 @@ LeetCode/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/build
 .PHONY : LeetCode/fast
 
-IsUgly.o: IsUgly.cpp.o
+ValidPalindrome.o: ValidPalindrome.cpp.o
 
-.PHONY : IsUgly.o
+.PHONY : ValidPalindrome.o
 
 # target to build an object file
-IsUgly.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsUgly.cpp.o
-.PHONY : IsUgly.cpp.o
+ValidPalindrome.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/ValidPalindrome.cpp.o
+.PHONY : ValidPalindrome.cpp.o
 
-IsUgly.i: IsUgly.cpp.i
+ValidPalindrome.i: ValidPalindrome.cpp.i
 
-.PHONY : IsUgly.i
+.PHONY : ValidPalindrome.i
 
 # target to preprocess a source file
-IsUgly.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsUgly.cpp.i
-.PHONY : IsUgly.cpp.i
+ValidPalindrome.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/ValidPalindrome.cpp.i
+.PHONY : ValidPalindrome.cpp.i
 
-IsUgly.s: IsUgly.cpp.s
+ValidPalindrome.s: ValidPalindrome.cpp.s
 
-.PHONY : IsUgly.s
+.PHONY : ValidPalindrome.s
 
 # target to generate assembly for a file
-IsUgly.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/IsUgly.cpp.s
-.PHONY : IsUgly.cpp.s
+ValidPalindrome.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LeetCode.dir/build.make CMakeFiles/LeetCode.dir/ValidPalindrome.cpp.s
+.PHONY : ValidPalindrome.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... LeetCode"
-	@echo "... IsUgly.o"
-	@echo "... IsUgly.i"
-	@echo "... IsUgly.s"
+	@echo "... ValidPalindrome.o"
+	@echo "... ValidPalindrome.i"
+	@echo "... ValidPalindrome.s"
 .PHONY : help
 
 
